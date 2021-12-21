@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunnerTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 96.113 s <<< FAILURE! - in runner.RunnerTests
+Check changing location entering US zip code(Smoke)  Time elapsed: 21.548 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShould: 
+Element should visible {By.xpath: //input[contains(@id, 'ZipUpdateInput')]}
+Element: '<input aria-label="or enter a US zip code" class="GLUX_Full_Width a-declarative" data-action="GLUXPostalInputAction" id="GLUXZipUpdateInput" maxlength="5" type="text" value="92065" displayed:false></input>'
+Actual value: hidden
+Screenshot: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.png
+Page source: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.html
+Timeout: 4 s.
+

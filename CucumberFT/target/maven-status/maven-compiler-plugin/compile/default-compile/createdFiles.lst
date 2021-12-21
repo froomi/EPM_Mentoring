@@ -1,0 +1,11 @@
+pages\BasePage.class
+pages\CustomerServicePage.class
+pages\PaymentPage.class
+stepdefinitions\DefinitionSteps.class
+pages\ProductPage.class
+pages\BrowsingHistoryPage.class
+pages\HomePage.class
+pages\SettingsPage.class
+pages\SearchResultsPage.class
+pages\ProfilePage.class
+manager\PageFactoryManager.class

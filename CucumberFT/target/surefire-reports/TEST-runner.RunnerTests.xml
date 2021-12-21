@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTests" time="96.113" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.1.3 clean test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\froom"/>
+    <property name="user.language" value="uk"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="froom"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\froom\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\froom\IdeaProjects\CucumberFT"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\froom\IdeaProjects\CucumberFT"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files (x86)\Network Associates\PGPcmdln;C:\apache-maven-3.8.1\bin;C:\allure-2.13.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Users\froom\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-15.0.2;C:\apache-maven-3.8.1\bin;C:\Program Files (x86)\Nmap;;C:\Users\froom\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\froom\.dotnet\tools;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Check login functionality" classname="Smoke" time="17.576"/>
+  <testcase name="Check search functionality" classname="Smoke" time="11.848"/>
+  <testcase name="Check name editing" classname="Smoke" time="20.26"/>
+  <testcase name="Check Costumer Service page" classname="Smoke" time="12.559"/>
+  <testcase name="Check changing location entering US zip code" classname="Smoke" time="21.548">
+    <failure message="Element should visible {By.xpath: //input[contains(@id, &apos;ZipUpdateInput&apos;)]}&#10;Element: &apos;&lt;input aria-label=&quot;or enter a US zip code&quot; class=&quot;GLUX_Full_Width a-declarative&quot; data-action=&quot;GLUXPostalInputAction&quot; id=&quot;GLUXZipUpdateInput&quot; maxlength=&quot;5&quot; type=&quot;text&quot; value=&quot;92065&quot; displayed:false&gt;&lt;/input&gt;&apos;&#10;Actual value: hidden&#10;Screenshot: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.png&#10;Page source: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should visible {By.xpath: //input[contains(@id, 'ZipUpdateInput')]}
+Element: '<input aria-label="or enter a US zip code" class="GLUX_Full_Width a-declarative" data-action="GLUXPostalInputAction" id="GLUXZipUpdateInput" maxlength="5" type="text" value="92065" displayed:false></input>'
+Actual value: hidden
+Screenshot: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.png
+Page source: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.html
+Timeout: 4 s.
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Check changing location entering US zip code  # src/test/resources/smoke.feature:98
+  Given User opens 'https://www.amazon.com/' page               # stepdefinitions.DefinitionSteps.openPage(java.lang.String)
+  And User clicks Sign-in form button                           # stepdefinitions.DefinitionSteps.userClicksSignInFormButton()
+  And User logs in using Email as 'oaa9729@gmail.com'           # stepdefinitions.DefinitionSteps.userLogsInUsingEmailAsEMAIL(java.lang.String)
+  And User clicks continue button                               # stepdefinitions.DefinitionSteps.userClicksContinueButton()
+  And User logs in using Password as '6nA)W2K6T'                # stepdefinitions.DefinitionSteps.userLogsInUsingPasswordAsPASSWORD(java.lang.String)
+  And User clicks Sign-in button                                # stepdefinitions.DefinitionSteps.userClicksSignInButton()
+  And User checks change location button visibility             # stepdefinitions.DefinitionSteps.userChecksChangeLocationButtonVisibility()
+  When User clicks on choose location button                    # stepdefinitions.DefinitionSteps.userClicksOnChooseLocationButton()
+  And User checks enter zip code field visibility               # stepdefinitions.DefinitionSteps.userChecksEnterZipCodeFieldVisibility()
+      Element should visible {By.xpath: //input[contains(@id, 'ZipUpdateInput')]}
+Element: '<input aria-label="or enter a US zip code" class="GLUX_Full_Width a-declarative" data-action="GLUXPostalInputAction" id="GLUXZipUpdateInput" maxlength="5" type="text" value="92065" displayed:false></input>'
+Actual value: hidden
+Screenshot: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.png
+Page source: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:127)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:154)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:131)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:83)
+	at com.sun.proxy.$Proxy22.should(Unknown Source)
+	at pages.HomePage.isZipCodeInputFieldVisible(HomePage.java:98)
+	at stepdefinitions.DefinitionSteps.userChecksEnterZipCodeFieldVisibility(DefinitionSteps.java:319)
+	at вњЅ.User checks enter zip code field visibility(file:///C:/Users/froom/IdeaProjects/CucumberFT/src/test/resources/smoke.feature:89)
+
+  And User enters '92065' in field                              # stepdefinitions.DefinitionSteps.userEntersZIPInField(java.lang.String)
+  And User clicks on Apply button                               # stepdefinitions.DefinitionSteps.userClicksOnApplyButton()
+  And User clicks on continue button                            # stepdefinitions.DefinitionSteps.userClicksOnContinueButton()
+  And User clicks on the first item in the list                 # stepdefinitions.DefinitionSteps.userClicksOnTheFirstItemInTheList()
+  Then User checks that delivery location contains '92065' code # stepdefinitions.DefinitionSteps.userChecksThatDeliveryLocationContainsZIPCode(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 49497
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+груд. 21, 2021 4:40:46 ПП org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+груд. 21, 2021 4:40:46 ПП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 96
+]]></system-err>
+  </testcase>
+  <testcase name="Check changing language and currency" classname="Smoke" time="11.544"/>
+</testsuite>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="95.343">
+    <testcase classname="Smoke" name="Check login functionality" time="17.428">
+        <system-out>
+            <![CDATA[Given User opens 'https://www.amazon.com/' page.............................passed
+And User checks Sign-in form button visibility..............................passed
+When User clicks Sign-in form button........................................passed
+And User checks Email field visibility......................................passed
+And User checks continue button visibility..................................passed
+And User logs in using Email as 'oaa9729@gmail.com'.........................passed
+And User clicks continue button.............................................passed
+And User checks password field visibility...................................passed
+And User logs in using Password as '6nA)W2K6T'..............................passed
+And User checks Sign-in button visibility...................................passed
+And User clicks Sign-in button..............................................passed
+Then User checks that login is successful by seeing page....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Smoke" name="Check search functionality" time="11.835">
+        <system-out>
+            <![CDATA[Given User opens 'https://www.amazon.com/' page.............................passed
+And User checks search field visibility.....................................passed
+When User search by keyword 'gift'..........................................passed
+And User clicks on first Delivery type on list..............................passed
+And User checks Sort by button visibility...................................passed
+And User clicks on Sort by button...........................................passed
+And User clicks on Price: High to Low point in list.........................passed
+Then User checks that all items have pointed Delivery Type..................passed
+And User checks that items are sorted in 'desc' order.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Smoke" name="Check name editing" time="20.246">
+        <system-out>
+            <![CDATA[Given User opens 'https://www.amazon.com/' page.............................passed
+And User clicks Sign-in form button.........................................passed
+And User logs in using Email as 'oaa9729@gmail.com'.........................passed
+And User clicks continue button.............................................passed
+And User logs in using Password as '6nA)W2K6T'..............................passed
+And User clicks Sign-in button..............................................passed
+When User clicks Sign-in form button........................................passed
+And User checks Login and security form visibility..........................passed
+And User clicks on Login and security form..................................passed
+And User checks that Edit button in Name table is visible...................passed
+Then User clicks on Edit button.............................................passed
+And User clears old name and writes new one: 'Walter'.......................passed
+And User saves changes......................................................passed
+And User checks that message is 'Success'...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Smoke" name="Check Costumer Service page" time="12.55">
+        <system-out>
+            <![CDATA[Given User opens 'https://www.amazon.com/' page.............................passed
+And User checks Costumer Service button visibility..........................passed
+When User clicks On Costumer Service button.................................passed
+And User checks Help topics navigation field visibility.....................passed
+And User searches solution inputting 'COVID' in navigation field............passed
+And User clicks on first result.............................................passed
+Then User checks that solution responds the 'COVID'.........................passed
+And User marks solution as helpful..........................................passed
+And User checks that message was marked.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Smoke" name="Check changing location entering US zip code" time="21.534">
+        <failure message="Element should visible {By.xpath: //input[contains(@id, 'ZipUpdateInput')]}&#13;&#10;Element: '&lt;input aria-label=&quot;or enter a US zip code&quot; class=&quot;GLUX_Full_Width a-declarative&quot; data-action=&quot;GLUXPostalInputAction&quot; id=&quot;GLUXZipUpdateInput&quot; maxlength=&quot;5&quot; type=&quot;text&quot; value=&quot;92065&quot; displayed:false&gt;&lt;/input&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.png&#13;&#10;Page source: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">
+            <![CDATA[Given User opens 'https://www.amazon.com/' page.............................passed
+And User clicks Sign-in form button.........................................passed
+And User logs in using Email as 'oaa9729@gmail.com'.........................passed
+And User clicks continue button.............................................passed
+And User logs in using Password as '6nA)W2K6T'..............................passed
+And User clicks Sign-in button..............................................passed
+And User checks change location button visibility...........................passed
+When User clicks on choose location button..................................passed
+And User checks enter zip code field visibility.............................failed
+And User enters '92065' in field............................................skipped
+And User clicks on Apply button.............................................skipped
+And User clicks on continue button..........................................skipped
+And User clicks on the first item in the list...............................skipped
+Then User checks that delivery location contains '92065' code...............skipped
+
+StackTrace:
+Element should visible {By.xpath: //input[contains(@id, 'ZipUpdateInput')]}
+Element: '<input aria-label="or enter a US zip code" class="GLUX_Full_Width a-declarative" data-action="GLUXPostalInputAction" id="GLUXZipUpdateInput" maxlength="5" type="text" value="92065" displayed:false></input>'
+Actual value: hidden
+Screenshot: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.png
+Page source: file:/C:/Users/froom/IdeaProjects/CucumberFT/target/screenshots/1640097661263.0.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:127)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:154)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:131)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:83)
+	at com.sun.proxy.$Proxy22.should(Unknown Source)
+	at pages.HomePage.isZipCodeInputFieldVisible(HomePage.java:98)
+	at stepdefinitions.DefinitionSteps.userChecksEnterZipCodeFieldVisibility(DefinitionSteps.java:319)
+	at ✽.User checks enter zip code field visibility(file:///C:/Users/froom/IdeaProjects/CucumberFT/src/test/resources/smoke.feature:89)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Smoke" name="Check changing language and currency" time="11.538">
+        <system-out>
+            <![CDATA[Given User opens 'https://www.amazon.com/' page.............................passed
+And User checks settings button visibility..................................passed
+When User clicks on settings button.........................................passed
+And User clicks on 'DE' button from languages list..........................passed
+And User checks currency selecting button visibility........................passed
+And User clicks on currency selecting button................................passed
+And User clicks on 'EUR' button.............................................passed
+And User checks save changes button visibility..............................passed
+And User clicks on save changes button......................................passed
+Then User checks that current url contains 'DE'.............................passed
+And User check that current url contains 'EUR'..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
